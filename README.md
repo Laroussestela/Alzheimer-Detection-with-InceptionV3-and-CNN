@@ -29,7 +29,7 @@ Non Impairment         ~2.560 imágenes
 Very Mild Impairment    ~2.560 imágenes  
 Mild Impairment         ~2.560 imágenes  
 Moderate Impairment     ~2.560 imágenes
-
+```
 
 ## 🧠 Modelos
 

@@ -46,10 +46,12 @@ Moderate Impairment     ~2.560 imágenes
 | Fine-tuning InceptionV3      | 0.4078             | 0.9022                    | 0.9022                     | 0.9022     | 0.9674             | 0.9022       |
 
 
-CNN Personalizado
+## CNN Personalizado
+
 ![image](https://github.com/user-attachments/assets/284459a9-27ff-4a85-8fc8-66004b071640)
 
 
-Fine-Tuning
+## Fine-Tuning
+
 ![image](https://github.com/user-attachments/assets/70702d10-b827-40a8-b5b0-a8b332e1e645)
 

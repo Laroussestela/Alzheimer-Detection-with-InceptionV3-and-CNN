@@ -7,11 +7,11 @@ def model():
     inc.summary()
 
     for i in inc.layers:
-    i.trainable = True
+        i.trainable = True
 
     for layer in inc.layers:
-    if layer.name == 'conv2d_80':
-        break
+        if layer.name == 'conv2d_80':
+            break
     layer.trainable = False
     print('Capa ' + layer.name + ' congelada...')
 

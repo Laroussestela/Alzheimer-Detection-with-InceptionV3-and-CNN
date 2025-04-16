@@ -3,10 +3,12 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 import pickle
 
 from data_loader import df
-from Models.CNN_model import model 
+from Models.CNN_model import model as model_cnn
+from Models.InceptionV3_fine_tuning import model as model_ins
 from metrics import precision, recall, specificity, f1_score, accuracy
 
-custom_model = model()
+custom_model = model_cnn()
+# custom_model = model_ins()
 train_images, val_images, test_images = df()
 
 EPOCHS = 500
